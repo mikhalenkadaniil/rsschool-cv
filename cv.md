@@ -55,3 +55,8 @@ class Solution {
 * ### The Rolling Scopes Front-End course
 
 ---
+
+## Languages
+* **Polish - B2** (*Certificate Silesian University*)
+* **English - B1** (*Results interviews*)
+* **Russian - Native**
