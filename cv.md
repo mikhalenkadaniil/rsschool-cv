@@ -60,3 +60,10 @@ class Solution {
 * **Polish - B2** (*Certificate Silesian University*)
 * **English - B1** (*Results interviews*)
 * **Russian - Native**
+
+---
+
+## Additional information
+* Category B driving license (4 years of experience)
+* Experience working in a team
+* Ability to estimate and structure tasks
