@@ -24,3 +24,25 @@ I'm looking for my first job in IT.
 * OS Windows, OS Linux and standard Office pack level advanced
 
 ---
+## Code example
+
+```
+class Solution {
+    /**
+     * @param {number[]} nums
+     * @return {boolean}
+     */
+    hasDuplicate(nums) {
+        let buffer = {};
+        for (let i = 0; i < nums.length; i++){
+            if (buffer[nums[i]]){
+                return true;
+            } else{
+                buffer[nums[i]] = true; 
+            }
+        }
+        return false;
+    }
+}
+```
+---
