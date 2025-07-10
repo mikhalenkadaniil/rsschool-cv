@@ -46,3 +46,12 @@ class Solution {
 }
 ```
 ---
+
+## Education
+* ### Belarus state university
+    * _Faculty Radiophysics and computer technologys
+    (Speciality physics electronic)
+    2019-2023 (Unfinished due to relocate in Poland)_
+* ### The Rolling Scopes Front-End course
+
+---
