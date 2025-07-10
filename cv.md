@@ -15,3 +15,12 @@ I moved to Poland in May 2023.
 I'm looking for my first job in IT.
 
 ---
+
+## Technical skills
+
+* HTML5, CSS3
+* JavaScript/TypeScript + React
+* Git, GitHub
+* OS Windows, OS Linux and standard Office pack level advanced
+
+---
