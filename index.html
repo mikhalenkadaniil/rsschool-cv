@@ -4,9 +4,180 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./style.css" rel="stylesheet" type="text/css">
-    <title>Document</title>
+    <title>Daniil Mikhalenka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="body">
+    <header class="header">
+        <div class="header__line"></div>
+        <nav class="nav__border">
+            <ul class="header__nav">
+                <li><a href="#Aboutme" class="header__nav__links">About me</a></li>
+                <li><a href="#Languages" class="header__nav__links">Languages</a></li>
+                <li><a href="#Education" class="header__nav__links">Education</a></li>
+                <li><a href="#Skills" class="header__nav__links">Skills</a></li>
+                <li><a href="#Codeexample" class="header__nav__links">Code example</a></li>
+                <li><a href="#Additional" class="header__nav__links">Additional</a></li>
+                <li><a href="#Projects" class="header__nav__links">Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="title">
+            <div class="title__avatar">
+                <img src="./img/avatar.jpg" alt="Avatar" class="avatar"
+                height="300" width="300">
+            </div>
+            <div class="title__content">
+                <h1 class="name">DANIIL MIKHALENKA</h1>
+                <p class="title__text">Junior Front-End developer</p>
+                <p class="title__text">23 years old</p>
+            </div>
+        </section>
+        <div class="top__container">
+            <section class="main__section__contacts">
+                <h3 class="h__contacts">CONTACTS</h3>
+                <ul class="contacts">
+                    <li class="contacts__el">
+                        <img src="svg/phone.svg" alt="icon_phone" height="30" width="30">
+                        <div class="contacts__text">+48-***-***-784</div>
+                    </li>
+                    <li class="contacts__el">
+                        <img src="svg/mail.svg" alt="icon_mail" height="30" width="30">
+                        <div class="contacts__text">mikhalenka.d@gmail.com</div>
+                    </li>
+                    <li class="contacts__el">
+                        <img src="svg/location.svg" alt="icon_location" height="30" width="30">
+                        <div class="contacts__text">Katowice</div>
+                    </li>
+                </ul>
+            </section>
+            <div class="main__section__content">
+                <section class="aboutme__section" id="Aboutme">
+                    <div class="h2__component">
+                        <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                        <h2 class="h2">ABOUT ME</h2>
+                    </div>
+                    <p class="p">I have the ability to learn quickly and individually. I moved to Poland in May 2023. I'm looking for my first job in IT.</p>
+                </section>
+            </div>
+        </div>
+        <div class="middle__container">
+            <div class="triangle"></div>
+            <div class="main__section__content">
+                <section class="section__languages" id="Languages">
+                    <div class="h2__component">
+                        <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                        <h2 class="h2">LANGUAGES</h2>
+                    </div>
+                    <ul>
+                        <li class="p">Polish - B2 (Certificate Silesian University)</li>
+                        <li class="p">English - B1 (Results interviews)</li>
+                        <li class="p">Russian - Native</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+        <div class="bottom__container">
+            <div class="bottom__sections">
+                <section class="section__education" id="Education">
+                    <div class="h2__component">
+                        <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                        <h2 class="h2">EDUCATION</h2>
+                    </div>
+                    <ul class="del__points">
+                        <li>
+                            <h4 class="h4">Belarus state university</h4>
+                            <p class="p">Faculty Radiophysics and computer technologys (Speciality physics electronic) 2019-2023 (Unfinished due to relocate in Poland)
+                            </p>
+                        </li>
+                        <li>
+                            <h4 class="h4">The Rolling Scopes Front-End course</h4>
+                        </li>
+                    </ul>
+                </section>
+                <div class="flex">
+                    <section class="section__skills" id="Skills">
+                        <div class="h2__component">
+                            <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                            <h2 class="h2">SKILLS</h2>
+                        </div>
+                        <ul>
+                            <li class="p">HTML5, CSS3</li>
+                            <li class="p">JavaScript/TypeScript + React</li>
+                            <li class="p">Git, GitHub</li>
+                            <li class="p">OS Windows, OS Linux</li>
+                        </ul>
+                    </section>
+                    <section class="section__codeexemple" id="Codeexample">
+                        <div class="h2__component">
+                            <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                            <h2 class="h2">CODE EXAMPLE</h2>
+                        </div>
+                        <pre>
+                            <code class="code">
+            hasDuplicate(nums) {
+                let buffer = {};
+                for (let i = 0; i &lt; nums.length; i++){
+                    if (buffer[nums[i]]){
+                        return true;
+                    } else{
+                        buffer[nums[i]] = true; 
+                    }
+                }
+                return false;
+            }
+                            </code>
+                        </pre>
+                    </section>
+                </div>
+                <section class="section__additional" id="Additional">
+                    <div class="h2__component">
+                            <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                            <h2 class="h2">ADDITIONAL INFORMATION</h2>
+                    </div>
+                    <ul>
+                        <li class="p">Category B driving license (4 years of experience)</li>
+                        <li class="p">Experience working in a team</li>
+                        <li class="p">Ability to estimate and structure tasks</li>
+                    </ul>
+                </section>
+                <section class="section__projects" id="Projects">
+                    <div class="h2__component">
+                            <img src="./svg/arrow.svg" alt="arrow" height="46" width="46">
+                            <h2 class="h2">PROJECTS</h2>
+                    </div>
+                    <div class="projects__conatiner">
+                        <a class="project__component" href="https://github.com/mikhalenkadaniil/rsschool-cv">
+                            <div class="project__component__container">
+                                <img src="screens/cv.png" alt="cv" width="400" class="project__component__screen">
+                                <div class="project__component__name">CV</div>
+                                <div class="project__component__skills">Skills: HTML&CSS</div>
+                            </div>
+                        </a>
+                        <a class="project__component" href="https://github.com/mikhalenkadaniil/rsschool-cv">
+                            <div class="project__component__container">
+                                <img src="screens/cv.png" alt="cv" width="400" class="project__component__screen">
+                                <div class="project__component__name">CV</div>
+                                <div class="project__component__skills">Skills: HTML&CSS</div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/mikhalenkadaniil">
+            <img src="./svg/github-mark.svg" alt="githublogo" width="75">
+        </a>
+        <p class="year">2025</p>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="./svg/rs-school-logo.svg" alt="rsslogo" width="150">
+        </a>
+    </footer>
 </body>
 </html>
