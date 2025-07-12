@@ -268,7 +268,7 @@ html {
     transition-duration: 0.5s;
     position:static;
     transform: scale(110%);
-    box-shadow: 20px 10px 10px #f2f2f2;
+    box-shadow: 20px 10px 10px #c1c0c0;
 }
 
 .project__component__screen {
@@ -291,4 +291,16 @@ html {
 
 .project__component {
     text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.year {
+    font-size: 20px;
 }
